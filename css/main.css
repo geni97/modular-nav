@@ -1,0 +1,60 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+ul {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+  text-align: right;
+}
+
+div {
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+  text-align: left;
+  padding: 0.3em;
+  color: #0074d9;
+}
+
+a {
+  text-decoration: none;
+}
