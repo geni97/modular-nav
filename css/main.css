@@ -55,7 +55,7 @@ div {
 .btn {
   display: inline-block;
   text-align: left;
-  padding: 0.3em;
+  padding: 0;
   color: #0074d9;
 }
 
@@ -63,7 +63,7 @@ a {
   text-decoration: none;
 }
 
-.btn:hover {
+a:hover {
   background-color: #0074d9;
   color: #fff;
 }
